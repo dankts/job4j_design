@@ -38,7 +38,7 @@ public class SimpleArrayTest {
     }
 
     @Test
-    public void whenAddAndGet(){
+    public void whenAddAndGet() {
         SimpleArray<String> simpleArray = new SimpleArray<>(4);
         simpleArray.add("Hello");
         simpleArray.add("Java");
@@ -48,7 +48,7 @@ public class SimpleArrayTest {
     }
 
     @Test
-    public void whenNext(){
+    public void whenNext() {
         SimpleArray<String> simpleArray = new SimpleArray<>(4);
         simpleArray.add("Hello");
         simpleArray.add("Java");
