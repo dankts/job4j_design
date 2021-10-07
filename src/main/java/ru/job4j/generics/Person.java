@@ -12,8 +12,4 @@ public class Person {
         this.age = age;
         this.birthday = birthday;
     }
-
-    // getters and setters
-    // equals and hashcode
-    // toString
 }
